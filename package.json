@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test2": "node src/routers/mongo.js",
+    "start": "nodemon src/main.js",
+    "debug": "node src/test.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@types/supertest": "^2.0.11",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "koa": "^2.13.4",
+    "koa-mount": "^4.0.0",
+    "koa-pug": "^5.0.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^6.0.0",
+    "mongo": "^0.1.0",
+    "multer": "^1.4.4",
+    "prettier": "^2.5.1",
+    "pug": "^3.0.2",
+    "tailwindcss": "^3.0.8"
+  }
+}
